@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/halls")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://149.100.159.18:8084")
 public class CinemaHallController {
     private final CinemaHallService cinemaHallService;
     @PostMapping("/add/{CinemaId}")

@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://149.100.159.18:8084")
 public class AccessController {
     private final AccessService accessService;
 

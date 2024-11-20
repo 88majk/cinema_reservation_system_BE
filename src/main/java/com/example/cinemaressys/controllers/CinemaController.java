@@ -13,7 +13,7 @@ import java.util.Objects;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/cinema")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://149.100.159.18:8084")
 public class CinemaController {
     private final CinemaService cinemaService;
     @PostMapping("/add")

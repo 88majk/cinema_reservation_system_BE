@@ -11,7 +11,7 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping("/cinemas/{cinemasId}")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://149.100.159.18:8084")
 public class CinemasMovieSessionController {
     private final MovieSessionService movieSessionService;
     @Autowired

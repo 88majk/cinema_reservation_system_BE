@@ -14,7 +14,7 @@ import com.example.cinemaressys.security.JwtTokenProvider;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://149.100.159.18:8084")
 public class UsersController {
     private final UserService userService;
     @Autowired
