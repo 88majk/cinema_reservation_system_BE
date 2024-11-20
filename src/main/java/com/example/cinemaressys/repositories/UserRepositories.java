@@ -12,7 +12,7 @@ import org.springframework.data.repository.query.Param;
 import java.beans.Transient;
 import java.util.List;
 
-public interface UserRepositories extends JpaRepository<User, Integer> {
+public interface    UserRepositories extends JpaRepository<User, Integer> {
     boolean existsByEmail(String email);
     @Query("SELECT u.password FROM User u WHERE u.email = :email")
     String findPasswordByEmail(@Param("email") String email);
