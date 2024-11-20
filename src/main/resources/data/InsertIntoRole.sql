@@ -1,4 +1,1 @@
-INSERT INTO CinemaResSys.dbo.role VALUES
-('Administrator'),
-('User'),
-('Cinema manager')
+INSERT INTO CinemaResSys.dbo.role VALUES ('Administrator'), ('User'), ('Cinema manager');

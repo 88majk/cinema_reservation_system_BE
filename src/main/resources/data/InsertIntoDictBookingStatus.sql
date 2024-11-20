@@ -1,5 +1,1 @@
-INSERT INTO CinemaResSys.dbo.Dict_booking_status VALUES
-('Pending'),
-('Confirmed'),
-('Cancelled'),
-('Completed');
+INSERT INTO CinemaResSys.dbo.Dict_booking_status VALUES ('Pending'), ('Confirmed'), ('Cancelled'), ('Completed');
